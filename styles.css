@@ -42,3 +42,7 @@ img {
 #selectors > a:active {
   color: green;
 }
+
+li {
+  margin-bottom: 0.5em;
+}
