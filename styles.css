@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: -1em;
+  padding: 0.25em;
+}
+
+img {
+  display: block;
+  max-width: 200;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  margin-right: 1em;
+}
+
+#about {
+  display: flex;
+}
+
+#container {
+  margin-top: 3em;
+}
+
+#selectors {
+  display: flex;
+  padding: 0;
+  margin-right: 1em;
+}
+
+#selectors > a {
+  margin-right: 1em;
+  padding: 0;
+}
+
+#selectors > a:hover {
+  color: purple;
+}
+
+#selectors > a:active {
+  color: green;
+}
