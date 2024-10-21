@@ -9,11 +9,12 @@ nav {
 
 img {
   display: block;
-  max-width: 200;
+  max-width: 200px;
   max-height: 200px;
   width: auto;
   height: auto;
   margin-right: 1em;
+  align-self: center;
 }
 
 #about {
