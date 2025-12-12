@@ -27,8 +27,8 @@ img {
   display: flex;
 }
 
-#container {
-  margin-top: 3em;
+#container p {
+  margin: 0;
 }
 
 #selectors {
