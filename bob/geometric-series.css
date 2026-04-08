@@ -160,26 +160,30 @@ h1 span {
 
 .neg-toggle {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   font-weight: 600;
-  width: 26px;
-  height: 26px;
+  padding: 0.15rem 0.5rem;
+  height: 22px;
   border: 1px solid var(--border);
   border-radius: 2px;
   background: transparent;
-  color: var(--text);
+  color: var(--muted);
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
   transition: all 0.15s;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.5;
 }
 
 .neg-toggle.active {
   background: #9c27b0;
   border-color: #9c27b0;
   color: #fff;
+  opacity: 1;
 }
 
 input[type="range"] {
@@ -417,4 +421,77 @@ canvas#bobCanvas {
   margin: 0;
   padding: 0;
   border: none;
+}
+
+/* Mobile landscape */
+@media (max-height: 500px) and (orientation: landscape) {
+  body {
+    padding: 0.5rem;
+    overflow-y: auto;
+  }
+
+  header {
+    margin-bottom: 0.4rem;
+    padding-bottom: 0.3rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  .header-param .val {
+    font-size: 1rem;
+  }
+
+  .layout {
+    flex-direction: row;
+  }
+
+  .left-panel {
+    width: 220px;
+    gap: 0.5rem;
+  }
+
+  .card {
+    padding: 0.5rem;
+  }
+
+  .card-title {
+    font-size: 0.6rem;
+    margin-bottom: 0.3rem;
+    padding-bottom: 0.2rem;
+  }
+
+  .sequence {
+    max-height: 18vh;
+    font-size: 0.7rem;
+  }
+
+  .stats-strip {
+    padding: 0.4rem 0.8rem;
+  }
+
+  .bob-track-card {
+    padding: 0.4rem 0.8rem;
+  }
+
+  canvas#bobCanvas {
+    height: 60px;
+  }
+
+  .chart-card {
+    padding: 0.6rem;
+    margin-top: 0.4rem;
+  }
+
+  .playback button {
+    width: 24px;
+    height: 24px;
+    font-size: 0.7rem;
+  }
+
+  .playback .speed-btn {
+    height: 20px;
+    font-size: 0.6rem;
+  }
 }

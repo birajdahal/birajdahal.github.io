@@ -701,7 +701,6 @@ function onSlider() { stop(); bobDone = false; visibleCount = 1; resetBobView();
 rSlider.addEventListener('input', onSlider);
 negToggle.addEventListener('click', () => {
   rNegative = !rNegative;
-  negToggle.textContent = rNegative ? '−' : '+';
   negToggle.classList.toggle('active', rNegative);
   onSlider();
 });
