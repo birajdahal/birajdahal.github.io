@@ -174,7 +174,7 @@ function drawBob(terms, shown, a, r) {
   bobCtx.clearRect(0, 0, W, H);
 
   const groundY = H * 0.82;
-  const pad = { left: 40, right: 30 };
+  const pad = { left: 50, right: 40 };
   const trackW = W - pad.left - pad.right;
 
   // Use animated view bounds (computed from step-based zoom)
