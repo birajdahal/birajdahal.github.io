@@ -95,7 +95,7 @@ h1 span {
   body {
     height: auto;
     overflow-y: auto;
-    padding-top: 3rem;
+    margin-top: 3rem;
   }
 
   .container {
@@ -115,20 +115,12 @@ h1 span {
     min-height: 80vh;
   }
 
-  .bob-track-card {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .bob-track-card canvas#bobCanvas {
-    flex: 1;
-    height: auto;
-    min-height: 80px;
+  canvas#bobCanvas {
+    height: 70px;
   }
 
   .chart-card {
-    flex: 3;
+    flex: 1;
   }
 }
 
