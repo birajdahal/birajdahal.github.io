@@ -70,10 +70,14 @@ body {
   padding-top: 0.25em;
   padding-left: 3em;
   padding-right: 3em;
+  font-size: 1.1em;
+  line-height: 1.25em; 
 }
 
 h1 {
-  margin: 0.25em;
+  margin-left: 0.25em;
+  margin-bottom: 0.5em;
+  margin-top: 0.25em;
   color: #0B6E4F;
 }
 
