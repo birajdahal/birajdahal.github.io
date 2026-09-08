@@ -29,6 +29,18 @@ img {
 
 #container p {
   margin: 0;
+  color: black;
+}
+
+h2 {
+  color: #2E294E;
+}
+
+#container {
+  background-color: #F3EDE3;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  border: 2px solid gray;
 }
 
 #selectors {
@@ -53,3 +65,16 @@ img {
 li {
   margin-bottom: 0.5em;
 }
+
+body {
+  padding-top: 0.25em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+h1 {
+  margin: 0.25em;
+  color: #0B6E4F;
+}
+
+
